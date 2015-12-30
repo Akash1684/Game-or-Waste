@@ -1,0 +1,24 @@
+{
+	"manifest_version": 2,
+	"name": "Waste",
+	"version": "1.0",
+	"description": "Keep your mind off the Games",
+	
+	"browser_action": {
+    "default_icon": "images/images48.png"
+    },
+	
+	"icons": { "16": "images/images16.png",
+           "48": "images/images48.png",
+          "128": "images/images128.png" },
+		  
+	"content_scripts": 
+	[
+		{
+			"matches": ["*://*/*","*://???games???/*"], 
+			"js": ["myscript.js"],
+			"run_at": "document_end" ,
+			"all_frames": true
+		}
+	]
+}

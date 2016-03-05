@@ -3,7 +3,7 @@ Game-or-Waste
 
 ![](images/images128.png)
 
-Game-or-Waste is a stupid Chrome extension dealing with my obsession of Games :D . It replaces all the occurrences of "game" with "waste" in all active tabs.
+Game-or-Waste is a stupid Chrome extension dealing with my obsession of Games :D . It replaces all the occurrences of "game" with "waste" in active tab.
 
 [Direct download of crx file](https://github.com/Akash1684/Game-or-Waste/blob/master/Game-or-Waste.crx?raw=true)
 
